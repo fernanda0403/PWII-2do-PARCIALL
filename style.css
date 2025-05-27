@@ -17,3 +17,63 @@ h1 {
   color: rgb(13, 156, 56);
   
 }
+
+.container {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  padding: 1em;
+  border-radius: 1em;
+  justify-content: center;
+  max-width: 1440px;
+}
+
+.pokemon {
+  display: flex;
+
+  justify-content: center;
+  gap: 1em;
+  background-color: brown;
+}
+
+.pokemon-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  overflow: visible;
+  background-color: blue;
+
+}
+
+.pokemon-nombre {
+  text-align: center;
+  size: 2em;
+  color: aquamarine;
+}
+
+.pokemon-descripcion {
+ line-height: 1.36em;
+}
+
+.pokemon-powers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  list-style: none;
+}
+
+.pokemon-skill {
+  padding: 0.4em;
+  border-radius: 0.4em;
+  size: .75em;
+  background-color: rgb(224, 133, 13);
+  color: rgb(172, 27, 112);
+}
+
+.pokemon-type {
+  padding: .5em .75em;
+  border-radius: 1.6em;
+  background-color: aquamarine;
+  color: darkolivegreen;
+}
