@@ -30,7 +30,8 @@ h1 {
 }
 
 .pokemon {
-  display: flex;
+  display: flexbox;
+  
 
   justify-content: center;
   gap: 1em;
@@ -58,6 +59,8 @@ h1 {
 
 .pokemon-powers {
   display: flex;
+  flex-direction: column-reverse
+
   flex-wrap: wrap;
   gap: 0.5em;
   list-style: none;
